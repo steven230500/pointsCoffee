@@ -14,11 +14,13 @@ let component: any;
 describe('<HomePage />', () => {
 
   beforeEach(() => {
-    component = render(<HomePage navigation={undefined as any} route={undefined as any} />)
+    //globalThis.fetch = jest.fn(() => Promise.resolve());
+    component = render(<HomePage navigation={undefined as any} route={undefined as any} />);
   });
   it('renders correctly', () => {
     expect(component).toBeDefined();
   });
+  
 });
 
 
