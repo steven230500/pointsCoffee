@@ -127,4 +127,28 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     marginBottom: 10,
   },
+  textCreatedAt: {
+    color: '#000000',
+    fontWeight: '800',
+    fontSize: 16,
+    fontFamily: 'AvenirLTStd-Black',
+    marginBottom: 10,
+  },
+  numberPointsDetail: {
+    color: '#000000',
+    fontFamily: 'AvenirLTStd-Black',
+    fontWeight: '800',
+    fontSize: 24,
+    marginBottom: 10,
+  },
+  textBtnDetail: {
+    marginTop: 10,
+    backgroundColor: '#334FFA',
+    width: '90%',
+    height: 50,
+    alignItems: 'center',
+    alignSelf: 'center',
+    justifyContent: 'center',
+    borderRadius: 10,
+  },
 });
